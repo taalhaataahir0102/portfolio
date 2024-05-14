@@ -186,7 +186,7 @@ const bigProjects = {
       projectDesc: "The EcoSaver platform is where people who care about the environment can come together. Here, you can plan eco-friendly projects with others, get the latest news on the environment, and find tips to live a more sustainable life. It's a community for anyone who wants to make a difference for our planet.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Project",
           url: "https://github.com/taalhaataahir0102/Ecosaver-frontend?tab=readme-ov-file"
         }
         //  you can add extra buttons here.
@@ -195,10 +195,10 @@ const bigProjects = {
     {
       image: require("./assets/images/recipe.jpeg"),
       projectName: "Recipe Sharing  ",
-      projectDesc: "Welcome to our recipe sharing website, where food lovers can come together to share, discover, and save their favorite recipes. On our platform, you can easily share your own recipes, save recipes you love for later, and even create shopping lists to make your grocery shopping easier. Whether you're a seasoned chef or just getting started in the kitchen, our website is the perfect place to find inspiration, connect with others, and explore the world of cooking.",
+      projectDesc: "Welcome to our recipe sharing website! Here, food lovers can share, discover, and save their favorite recipes. Easily share your own recipes, save favorites, and create shopping lists. Whether you're a seasoned chef or just getting started, find inspiration, connect with others, and explore the world of cooking!",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Project",
           url: "https://github.com/taalhaataahir0102/RecipeSharing-frontend?tab=readme-ov-file"
         }
       ]
@@ -209,8 +209,19 @@ const bigProjects = {
       projectDesc: "Welcome to our local eyewear store's website! We use cool computer vision technology to help you find the perfect glasses. With our augmented reality features, you can try on glasses virtually before you buy them, right from the comfort of your home. Finding the perfect pair of glasses has never been easier!",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Project",
           url: "https://github.com/taalhaataahir0102/Eyeware?tab=readme-ov-file"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/debloat.png"),
+      projectName: "Debloat Bench",
+      projectDesc: "A collaborative effort between Stanford, LUMS and Arizona state university to create a universal benchmark for comparing different debloating analysis techniques of container debloaters. This initiative seeks to standardize and enhance the evaluation process, promoting more efficient and effective debloating methods.",
+      footerLink: [
+        {
+          name: "Visit paper",
+          url: "https://www.csl.sri.com/users/gehani/papers/SecDev-2023.Debloat.pdf"
         }
       ]
     },
@@ -337,11 +348,11 @@ const podcastSection = {
 
 // Resume Section
 const resumeSection = {
-  // title: "Resume",
-  // subtitle: "Feel free to download my resume",
+  title: "Resume",
+  subtitle: "Feel free to download my resume",
 
-  // // Please Provide with Your Podcast embeded Link
-  // display: false // Set false to hide this section, defaults to true
+  // Please Provide with Your Podcast embeded Link
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
