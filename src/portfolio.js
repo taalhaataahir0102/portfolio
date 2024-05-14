@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Talha Tahir",
-  title: "Hi all, I'm Talha",
+  title: "Hi all",
   subTitle: emoji(
     "I am a full-stack developer with expertise in JavaScript, React, Node.js, and various other modern frameworks. Additionally, I have a passion for and extensive experience in developing machine learning applications using frameworks such as Keras, PyTorch, TensorFlow, and others."
   ),
@@ -337,11 +337,11 @@ const podcastSection = {
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
-  subtitle: "Feel free to download my resume",
+  // title: "Resume",
+  // subtitle: "Feel free to download my resume",
 
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  // // Please Provide with Your Podcast embeded Link
+  // display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
